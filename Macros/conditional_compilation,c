@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+#define STUDENT
+
+int main() {
+  #ifdef STUDENT
+    printf("You Are A Studemt\n");
+  #endif
+  return 0;
+}
